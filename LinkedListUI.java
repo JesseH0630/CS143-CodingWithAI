@@ -58,7 +58,7 @@ public class LinkedListUI extends JFrame implements LinkedListController.Callbac
         add(buildStatusBar(),    BorderLayout.SOUTH);
 
         // Reflect initial seeded list
-        controller.onIteratorButtonsChanged(false, false, false, false);
+        onIteratorButtonsChanged(false, false, false, false);
         canvas.repaint();
     }
 
